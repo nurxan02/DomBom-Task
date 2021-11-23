@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 1000px;
+  background-image: url(https://code.edu.az/media/slider/Digital.jpg);
+  background-repeat: no-repeat;
+}
+
+.container .title h1 {
+  position: absolute;
+  background-color: white;
+  bottom: 90px;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 15px 1px #c089f3;
+          box-shadow: 0px 0px 15px 1px #c089f3;
+  color: #9747e4;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.container .title h1:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 80%;
+  color: red;
+}
+/*# sourceMappingURL=hrefcss.css.map */
